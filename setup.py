@@ -3,14 +3,17 @@ import setuptools
 setuptools.setup(
     name="django-admin-multiselect", 
     version="0.0.7",
-    author="Example Author",
-    author_email="author@example.com",
-    description="A small example package",
+    author="Kreios S.a r.l.",
+    author_email="christian.hillerkus@kreios.lu",
+    description="Alternative multiple select widget that works with mobile devices.",
+    url="https://github.com/kreioslu/django-admin-multiselect",
+    keywords=["django", "admin", "multiselect"],
     packages=setuptools.find_packages(),
     classifiers=[
-        "Programming Language :: Python :: 3",
+        "Environment :: Web Environment",
+        "Programming Language :: Python",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
-    ],
-    python_requires='>=3.6',
+        "Framework :: Django"
+    ]
 )
